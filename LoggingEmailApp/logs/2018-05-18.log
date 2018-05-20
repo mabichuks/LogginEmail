@@ -1,0 +1,8 @@
+==========Debug 2018-05-18 16:04:10.0858 ==========
+
+ Exception Type: System.DivideByZeroException
+             Exception Message: Attempted to divide by zero.
+Stack Trace:    at LoggingEmailApp.Controllers.HomeController.Nlog() in c:\users\mabic\source\repos\LoggingEmailApp\LoggingEmailApp\Controllers\HomeController.cs:line 26
+             Level: DEBUG
+Call Site: LoggingEmailApp.Controllers.HomeController.Nlog
+Info: An error has occured
