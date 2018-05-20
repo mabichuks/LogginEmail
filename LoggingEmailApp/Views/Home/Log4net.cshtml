@@ -1,0 +1,76 @@
+﻿
+@{
+    ViewBag.Title = "Log4net";
+}
+
+<h3>An error occured and has been logged</h3>
+<div class="container">
+    <div class="row">
+        <div class="panel panel-default">
+            <div class="panel-heading clearfix">
+                <h3 class="panel-title">Message Form</h3>
+            </div>
+            <div class="panel-body">
+                <form role="form" class="form-horizontal" id="msgForm" method="post">
+                    <div class="form-group">
+                        <label class="col-sm-2" for="inputTo">To</label>
+                        <div class="col-sm-10"><input type="email" class="form-control" name="email" id="email" placeholder="enter email address"></div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2" for="inputSubject">Subject</label>
+                        <div class="col-sm-10"><input type="text" class="form-control" name="subject" id="subject" placeholder="subject"></div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2" for="Message">Message</label>
+                        <div class="col-sm-10"><textarea class="form-control" rows="8" id="message" name="message"></textarea></div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-10"><button type="submit" class="btn btn-primary">Send</button></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+@section scripts{
+<script src="~/Scripts/jquery.validate.js"></script>
+<script>
+    $(function () {
+        $("#msgForm").validate({
+            rules: {
+                email: {
+                    required: true
+                },
+                subject: {
+                    required: true
+                },
+                message: {
+                    required: true
+                },
+            }
+        })
+        $("#msgForm").bind("submit", function (e) {
+            e.preventDefault(false);
+            if (!$(e.target).valid()) {
+                return;
+            }
+            var formData = {};
+            formData.Email = $("#email").val();
+            formData.Subject = $("#subject").val();
+            formData.Message = $("#message").val();
+
+            $.ajax({
+                url: "/api/emailapi/log4netemailsender",
+                type: "POST",
+                contentType: "application/json; charset=utf-8",
+                data: JSON.stringify(formData),
+                error: function () { alert("An error occured, try again later") },
+                success: function (e) {
+                    window.location = "SuccessPage"
+                }
+            })
+        })
+    })
+
+</script>
+}

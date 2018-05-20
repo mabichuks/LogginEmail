@@ -1,0 +1,69 @@
+16:49:05,678 [LoggingEmailApp.Controllers.HomeController] WARN - There was a fatal error 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at LoggingEmailApp.Controllers.HomeController.Log4net() in c:\users\mabic\source\repos\LoggingEmailApp\LoggingEmailApp\Controllers\HomeController.cs:line 43
+16:49:06,594 [LoggingEmailApp.Controllers.HomeController] WARN - There was a fatal error 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at LoggingEmailApp.Controllers.HomeController.Log4net() in c:\users\mabic\source\repos\LoggingEmailApp\LoggingEmailApp\Controllers\HomeController.cs:line 43
+16:52:27,615 [LoggingEmailApp.Controllers.HomeController] DEBUG - There was a fatal error 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at LoggingEmailApp.Controllers.HomeController.Log4net() in c:\users\mabic\source\repos\LoggingEmailApp\LoggingEmailApp\Controllers\HomeController.cs:line 43
+14:32:28,904 [LoggingEmailApp.Controllers.HomeController] DEBUG - There was a fatal error 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at LoggingEmailApp.Controllers.HomeController.Log4net() in C:\Users\mabic\source\repos\LoggingEmailApp\LoggingEmailApp\Controllers\HomeController.cs:line 43
+14:36:34,924 [LoggingEmailApp.Controllers.HomeController] DEBUG - There was a fatal error 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at LoggingEmailApp.Controllers.HomeController.Log4net() in C:\Users\mabic\source\repos\LoggingEmailApp\LoggingEmailApp\Controllers\HomeController.cs:line 43
+14:42:14,264 [LoggingEmailApp.Controllers.HomeController] DEBUG - There was a fatal error 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at LoggingEmailApp.Controllers.HomeController.Log4net() in C:\Users\mabic\source\repos\LoggingEmailApp\LoggingEmailApp\Controllers\HomeController.cs:line 43
+14:44:57,793 [LoggingEmailApp.Controllers.HomeController] DEBUG - There was a fatal error 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at LoggingEmailApp.Controllers.HomeController.Log4net() in C:\Users\mabic\source\repos\LoggingEmailApp\LoggingEmailApp\Controllers\HomeController.cs:line 43
+14:48:11,667 [LoggingEmailApp.Controllers.HomeController] DEBUG - There was a fatal error 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at LoggingEmailApp.Controllers.HomeController.Log4net() in C:\Users\mabic\source\repos\LoggingEmailApp\LoggingEmailApp\Controllers\HomeController.cs:line 43
+14:49:33,090 [LoggingEmailApp.Controllers.HomeController] DEBUG - There was a fatal error 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at LoggingEmailApp.Controllers.HomeController.Log4net() in C:\Users\mabic\source\repos\LoggingEmailApp\LoggingEmailApp\Controllers\HomeController.cs:line 43
+14:51:35,525 [LoggingEmailApp.Controllers.HomeController] DEBUG - There was a fatal error 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at LoggingEmailApp.Controllers.HomeController.Log4net() in C:\Users\mabic\source\repos\LoggingEmailApp\LoggingEmailApp\Controllers\HomeController.cs:line 43
+20:00:56,103 [LoggingEmailApp.Controllers.HomeController] DEBUG - There was a fatal error 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at LoggingEmailApp.Controllers.HomeController.Log4net() in C:\Users\mabic\source\repos\LoggingEmailApp\LoggingEmailApp\Controllers\HomeController.cs:line 43
+20:08:04,501 [LoggingEmailApp.Controllers.HomeController] DEBUG - There was a fatal error 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at LoggingEmailApp.Controllers.HomeController.Log4net() in C:\Users\mabic\source\repos\LoggingEmailApp\LoggingEmailApp\Controllers\HomeController.cs:line 43
+20:13:24,047 [LoggingEmailApp.Controllers.HomeController] DEBUG - There was a fatal error 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at LoggingEmailApp.Controllers.HomeController.Log4net() in C:\Users\mabic\source\repos\LoggingEmailApp\LoggingEmailApp\Controllers\HomeController.cs:line 43
+20:15:41,255 [LoggingEmailApp.Controllers.HomeController] DEBUG - There was a fatal error 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at LoggingEmailApp.Controllers.HomeController.Log4net() in C:\Users\mabic\source\repos\LoggingEmailApp\LoggingEmailApp\Controllers\HomeController.cs:line 43
+20:17:08,806 [LoggingEmailApp.Controllers.HomeController] DEBUG - There was a fatal error 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at LoggingEmailApp.Controllers.HomeController.Log4net() in C:\Users\mabic\source\repos\LoggingEmailApp\LoggingEmailApp\Controllers\HomeController.cs:line 43
+20:21:33,382 [LoggingEmailApp.Controllers.HomeController] DEBUG - There was a fatal error 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at LoggingEmailApp.Controllers.HomeController.Log4net() in C:\Users\mabic\source\repos\LoggingEmailApp\LoggingEmailApp\Controllers\HomeController.cs:line 43
+20:28:23,437 [LoggingEmailApp.Controllers.HomeController] DEBUG - There was a fatal error 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at LoggingEmailApp.Controllers.HomeController.Log4net() in C:\Users\mabic\source\repos\LoggingEmailApp\LoggingEmailApp\Controllers\HomeController.cs:line 43
+21:27:41,045 [LoggingEmailApp.Controllers.HomeController] DEBUG - There was a fatal error 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at LoggingEmailApp.Controllers.HomeController.Log4net() in C:\Users\mabic\source\repos\LoggingEmailApp\LoggingEmailApp\Controllers\HomeController.cs:line 43
+22:28:14,520 [LoggingEmailApp.Controllers.HomeController] DEBUG - There was a fatal error 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at LoggingEmailApp.Controllers.HomeController.Log4net() in C:\Users\mabic\source\repos\LoggingEmailApp\LoggingEmailApp\Controllers\HomeController.cs:line 43
+22:43:15,278 [LoggingEmailApp.Controllers.HomeController] DEBUG - There was a fatal error 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at LoggingEmailApp.Controllers.HomeController.Log4net() in C:\Users\mabic\source\repos\LoggingEmailApp\LoggingEmailApp\Controllers\HomeController.cs:line 43
+22:57:47,991 [LoggingEmailApp.Controllers.HomeController] DEBUG - There was a fatal error 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at LoggingEmailApp.Controllers.HomeController.Log4net() in C:\Users\mabic\source\repos\LoggingEmailApp\LoggingEmailApp\Controllers\HomeController.cs:line 43
+23:18:12,044 [LoggingEmailApp.Controllers.HomeController] DEBUG - There was a fatal error 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at LoggingEmailApp.Controllers.HomeController.Log4net() in C:\Users\mabic\source\repos\LoggingEmailApp\LoggingEmailApp\Controllers\HomeController.cs:line 43
+23:24:06,182 [LoggingEmailApp.Controllers.HomeController] DEBUG - There was a fatal error 
+ System.DivideByZeroException: Attempted to divide by zero.
+   at LoggingEmailApp.Controllers.HomeController.Log4net() in C:\Users\mabic\source\repos\LoggingEmailApp\LoggingEmailApp\Controllers\HomeController.cs:line 43
